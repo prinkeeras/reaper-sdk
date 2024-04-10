@@ -150,13 +150,13 @@ INT_PTR SWELLAppMain(int msg, INT_PTR parm1, INT_PTR parm2); // to be implemente
 
 // basic types
 #ifdef SWELL_USE_OBJC_BOOL
-  #include <objc/objc.h>
-  #ifndef __OBJC__
-    #undef NO
-    #undef YES
-    #undef Nil
-    #undef nil
-  #endif
+  // #include <objc/objc.h>
+  // #ifndef __OBJC__
+  //   #undef NO
+  //   #undef YES
+  //   #undef Nil
+  //   #undef nil
+  // #endif
 #else
   typedef signed char BOOL;
 #endif
